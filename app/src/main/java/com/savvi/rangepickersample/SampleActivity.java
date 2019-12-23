@@ -54,7 +54,7 @@ public class SampleActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        calendar.init(lastYear.getTime(), nextYear.getTime(), new SimpleDateFormat("MMMM, YYYY", Locale.getDefault())) //
+        calendar.init(lastYear.getTime(), nextYear.getTime(), new SimpleDateFormat("MMMM, yyyy", Locale.getDefault())) //
                 .inMode(CalendarPickerView.SelectionMode.RANGE) //
                 .withDeactivateDates(list)
                 .withSubTitles(getSubTitles())
