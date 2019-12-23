@@ -11,7 +11,7 @@
     <color name="calendar_range_middle_deactivated_bg">#80000000</color>
 
 
-    <color name="calendar_text_inactive">#ffffff</color>
+    <color name="calendar_text_inactive">#40000000</color>
     <color name="calendar_text_active">#212121</color>
     <color name="calendar_text_selected">#ffffff</color>
     <color name="calendar_text_unselected">#7ffefeff</color>
